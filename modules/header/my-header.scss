@@ -1,0 +1,37 @@
+.my-header {
+  position: relative;
+  display: flex;
+  width: min(100% - 48px, 1440px);
+  min-height: 105px;
+  margin: 29px auto 0;
+  align-items: center;
+  padding: 20px clamp(24px, 7.7vw, 120px);
+  background-color: #fff;
+  z-index: 100;
+  .logo {
+    flex: 0 0 auto;
+    line-height: 0;
+  }
+  .logo img {
+    display: block;
+    width: 115px;
+    height: auto;
+  }
+  &.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: none;
+    min-height: 80px;
+    margin: 0;
+    background: #ffffff;
+  }
+
+  @media screen and (max-width: 992px) {
+    width: 100%;
+    min-height: 80px;
+    margin-top: 0;
+    padding: 16px 24px;
+  }
+}

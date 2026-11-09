@@ -1,21 +1,13 @@
 .my-header {
   position: relative;
-  display: flex;
-  width: min(100% - 48px, 1440px);
-  min-height: 105px;
-  margin: 29px auto 0;
-  align-items: center;
-  padding: 20px clamp(24px, 7.7vw, 120px);
-  background-color: #fff;
+  padding: 24px 0;
   z-index: 100;
-  .logo {
-    flex: 0 0 auto;
-    line-height: 0;
-  }
-  .logo img {
-    display: block;
-    width: 115px;
-    height: auto;
+  &__wrap{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1432px;
+    padding: 0 16px;
+    width: 100%;
   }
   &.scrolled {
     position: fixed;

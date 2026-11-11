@@ -1,7 +1,9 @@
 .my-header {
-  position: relative;
+  position: sticky;
   padding: 24px 0;
   z-index: 100;
+  top: 0;
+  background: #fff;
   &__wrap{
     display: flex;
     margin: 0 auto;

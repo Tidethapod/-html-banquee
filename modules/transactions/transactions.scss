@@ -1,0 +1,90 @@
+.transactions {
+  background-color: #E8F2EE;
+  padding-top: 86px;
+  padding-bottom: 70px;
+
+  &__wrap{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content{
+    flex: 0 0 47%;
+  }
+  &__title{
+    font-family: var(--font-1);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 70.4px */
+    letter-spacing: -1.92px;
+    margin-bottom: 26px;
+  }
+  &__text{
+    font-family: var(--font-2);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 36px */
+    margin-bottom: 32px;
+  }
+  &__features{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  &__feature{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  &__check{
+    background-color: #5BB5A2;
+    display: flex;
+    width: 26px;
+    height: 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #F8F8F8;
+    border-radius: 100px;
+  }
+  &__name{
+    font-family: var(--font-2);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 32.4px */
+  }
+  &__list{
+     flex: 0 0 34%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+   }
+  &__item{
+    display: flex;
+    padding: 24px;
+    gap: 16px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    align-items: center;
+  }
+  &__icon{
+    background-color: #5BB5A2;
+    border-radius: 8px;
+    padding: 11px;
+  }
+  &__info{
+    flex: 1;
+  }
+  &__description{
+    font-family: var(--font-2);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 25.6px */
+    color: rgba(26, 25, 30, 0.50);
+  }
+
+
+}

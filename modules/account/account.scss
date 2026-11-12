@@ -46,8 +46,19 @@
   }
   &__card{
     position: relative;
+    transition: all 0.3s ease;
+    z-index: 1;
+    &:nth-of-type(2){
+      z-index: 2;
+    }
+    &:nth-of-type(3){
+      z-index: 3;
+    }
     &:not(:last-child){
       margin-bottom: -200px;
+    }
+    &:hover{
+      z-index: 5;
     }
   }
 

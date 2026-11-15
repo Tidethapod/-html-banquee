@@ -83,6 +83,11 @@
     font-weight: 500;
     line-height: 100%; /* 18px */
     letter-spacing: -0.54px;
+    transition: background-color 0.3s ease;
+    &:hover{
+      background-color: #105146;
+
+    }
   }
   &__button2{
     border: 2px solid var(--border-default, #E8E8E8);
@@ -94,5 +99,9 @@
     font-weight: 500;
     line-height: 100%; /* 18px */
     letter-spacing: -0.54px;
+    transition: color 0.3s ease;
+    &:hover{
+      color: #5BB5A2;
+    }
   }
 }

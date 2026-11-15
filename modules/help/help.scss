@@ -1,0 +1,132 @@
+.help {
+  padding-top: 160px;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 212px;
+  }
+
+  &__content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__faq {
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__title {
+    font-family: var(--font-1);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -1.92px;
+    margin-bottom: 48px;
+  }
+  &__contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__phone{
+    display: flex;
+    gap: 24px;
+  }
+  &__icon{
+    background-color: #E8F2EE;
+    border-radius: 100px;
+    padding: 14px;
+  }
+  &__text{
+    font-family: var(--font-1);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: -0.54px;
+  }
+  &__subtitle{
+    font-family: var(--font-2);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 22.4px */
+    color: rgba(26, 25, 30, 0.50);
+  }
+  &__mail{
+    gap: 24px;
+  }
+  &__phone,
+  &__mail {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+  &__support{
+    font-family: var(--font-1);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 18px */
+    letter-spacing: -0.54px;
+    color: #5BB5A2;
+  }
+  &__faq {
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__item {
+    padding: 24px 0;
+    border-bottom: 1px solid #e8e8e8;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    font-family: var(--font-2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  &__span {
+    color: #56b19e;
+    font-size: 22px;
+    font-weight: 400;
+    flex-shrink: 0;
+  }
+
+  &__answer {
+    margin-top: 16px;
+    max-width: 100%;
+
+    font-family: var(--font-2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #898989;
+  }
+
+  &__span {
+    font-size: 22px;
+    color: #56b19e;
+  }
+}

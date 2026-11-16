@@ -35,7 +35,7 @@
   &__image {
     border-radius: 16px;
     overflow: hidden;
-
+    margin-bottom: 24px;
     img {
       display: block;
       width: 100%;
@@ -52,6 +52,30 @@
     line-height: 120%; /* 33.6px */
     letter-spacing: -0.84px;
     margin-bottom: 8px;
+    &:hover{
+      color: #4aa893;
+      transition: all 0.4s ease;
+    }
+    a{
+      text-decoration: none;
+      position: relative;
+      &:hover{
+        &::after{
+          width: 100%;
+        }
+      }
+      &::after{
+        width: 0;
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background-color: #5BB5A2;
+        transition: all 0.4s;
+      }
+    }
   }
   &__subtext{
     font-family: var(--font-2);

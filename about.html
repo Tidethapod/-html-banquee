@@ -1,13 +1,15 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Vite + SCSS</title>
-  </head>
-  <body>
-    <section>{{> header/my-header }}</section>
-    <h2>About</h2>
-    <section>{{> footer/my-footer }}</section>
-    <script type="module" src="./src/js/main.ts"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vite + SCSS</title>
+</head>
+<body>
+{{> header/my-header }}
+{{> features/features }}
+
+{{> footer/my-footer }}
+<script type="module" src="./src/js/main.ts"></script>
+</body>
 </html>

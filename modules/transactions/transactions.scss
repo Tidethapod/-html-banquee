@@ -68,6 +68,10 @@
     background-color: #F8F8F8;
     border-radius: 10px;
     align-items: center;
+    transition: transform 0.3s ease;
+    &:hover{
+      transform: translateX(-10px);
+    }
   }
   &__icon{
     background-color: #5BB5A2;
@@ -85,6 +89,4 @@
     line-height: 160%; /* 25.6px */
     color: rgba(26, 25, 30, 0.50);
   }
-
-
 }

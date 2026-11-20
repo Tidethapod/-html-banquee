@@ -1,0 +1,38 @@
+.wehelp{
+  background-color: #E8F2EE;
+
+  &__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 128px 140px 0 140px;
+  }
+  &__subtitle{
+    color: var(--text-default, #1A191E);
+
+    /* heading/h5 */
+    font-family: var(--font-1);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+    letter-spacing: -0.6px;
+    margin-bottom: 16px;
+  }
+  &__title{
+    color: var(--text-default, #1A191E);
+
+    /* heading/h1 */
+    font-family: var(--font-1);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 88px */
+    letter-spacing: -2.4px;
+  }
+  &__img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  }

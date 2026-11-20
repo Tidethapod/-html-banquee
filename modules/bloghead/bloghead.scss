@@ -1,0 +1,16 @@
+.bloghead{
+  padding: 96px 0;
+  background: #fff;
+&__header{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: var(--text-default, #1A191E);
+  font-family: var(--font-1);
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 115.2px */
+  letter-spacing: -2.88px;
+}
+}

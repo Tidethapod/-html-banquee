@@ -1,0 +1,91 @@
+.banners{
+  padding-top: 96px;
+  margin-bottom: 96px;
+  &__wrap{
+    display: flex;
+    width: 1200px;
+    padding: 32px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: var(--background-primary, #5BB5A2);
+    gap: 132px;
+  }
+  &__content{
+    display: flex;
+    flex-direction: column;
+  }
+  &__title{
+    color: var(--text-inverse, #FFF);
+
+    /* heading/h4 */
+    font-family: var(--font-1);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 33.6px */
+    letter-spacing: -0.84px;
+  }
+  &__subtitle{
+    color: var(--text-inverse, #FFF);
+
+    /* text/medium */
+    font-family: var(--font-2);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 32.4px */
+    opacity: 0.7;
+  }
+  &__items{
+    display: flex;
+    gap: 96px;
+
+  }
+  &__item{
+    align-items: center;
+    display: flex;
+    gap: 16px;
+  }
+  &__icon{
+    padding: 9px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.20);
+  }
+  &__overtitle{
+    color: var(--text-inverse, #FFF);
+
+    /* heading/h6 */
+    font-family: var(--font-1);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: -0.54px;
+  }
+  &__overtext{
+    color: var(--text-inverse, #FFF);
+
+    /* text/small */
+    font-family: var(--font-2);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 22.4px */
+    opacity: 0.7;
+  }
+  &__button{
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--background-secondary, #1A191E);
+    color: #FFFFFF;
+    transition: all 0.4s;
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+}

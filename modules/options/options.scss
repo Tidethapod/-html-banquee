@@ -1,0 +1,38 @@
+.options {
+  padding-top: 96px;
+
+  &__title {
+    color: var(--text-default, #1A191E);
+
+    /* heading/h5 */
+    font-family: var(--font-1);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+    letter-spacing: -0.6px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: #e8e8e8 1px solid;
+  }
+
+  &__table {
+    table {
+      width: 100%;
+
+    }
+
+    td {
+      padding: 32px 0;
+      border-bottom: #e8e8e8 1px solid;
+    }
+  }
+
+  &__card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+
+}

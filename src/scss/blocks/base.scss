@@ -57,6 +57,11 @@ p {
   padding: 0 16px;
   max-width: 1232px;
 }
+.container-small {
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1032px;
+}
 
 input[type="submit"]:disabled {
   cursor: not-allowed !important;
@@ -83,3 +88,4 @@ button::-moz-focus-inner {
 *{
   //border: 1px solid red;
 }
+
